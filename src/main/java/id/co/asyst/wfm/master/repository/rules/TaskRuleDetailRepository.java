@@ -1,0 +1,7 @@
+package id.co.asyst.wfm.master.repository.rules;
+
+import id.co.asyst.wfm.core.repository.BaseJpaRepository;
+import id.co.asyst.wfm.master.model.rules.TaskRuleDetail;
+
+public interface TaskRuleDetailRepository extends BaseJpaRepository<TaskRuleDetail, Long> {
+}
